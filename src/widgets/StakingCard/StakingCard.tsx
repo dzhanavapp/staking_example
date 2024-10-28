@@ -37,7 +37,7 @@ export const StakingCard = () => {
         )}
       </div>
 
-      {!isEnoughBalance && <span className={styles.error}>Not enough balance</span>}
+      {address && !isEnoughBalance && <span className={styles.error}>Not enough balance</span>}
     </div>
   );
 };
