@@ -1,0 +1,1 @@
+export { RatesInfo } from './RatesInfo';

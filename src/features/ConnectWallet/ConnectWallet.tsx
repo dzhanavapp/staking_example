@@ -1,5 +1,7 @@
-import { TonConnectButton } from '@tonconnect/ui-react';
+import { useTonConnectModal } from '@tonconnect/ui-react';
+import { Button } from '../../shared/ui';
 
 export const ConnectWallet = () => {
-  return <TonConnectButton />;
+  const { open } = useTonConnectModal();
+  return <Button onClick={open}>Connect Wallet</Button>;
 };

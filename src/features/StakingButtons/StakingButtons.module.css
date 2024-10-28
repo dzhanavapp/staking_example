@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

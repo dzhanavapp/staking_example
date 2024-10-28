@@ -1,0 +1,18 @@
+.card {
+  background-color: var(--text-color);
+  color: var(--background-color);
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  display: grid;
+
+  max-width: 726px;
+  margin: 0 auto;
+
+  gap: 0.5rem;
+}
+
+.error {
+  color: brown;
+}

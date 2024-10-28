@@ -5,6 +5,7 @@
 
   --text-color: #ffffff;
   --background-color: #213547;
+  --accent: #a684ff;
 
   color-scheme: light dark;
   color: var(--text-color);
