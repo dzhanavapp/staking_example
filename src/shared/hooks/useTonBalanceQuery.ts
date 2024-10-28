@@ -12,7 +12,7 @@ const fetchWalletBalance = async (address?: string, chain?: string) => {
   const balanceResponse = await fetch(balanceUrl);
   const balanceData = (await balanceResponse.json()) as { result: string };
 
-  return Number(balanceData.result) / 1000_000_000;
+  return Number(balanceData.result) / 10 ** 9;
 };
 
 export const useTonBalanceQuery = () => {

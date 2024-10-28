@@ -8,7 +8,6 @@ export const useTonstakers = () => {
   useEffect(() => {
     const onInit = async () => {
       console.log('Inited');
-      ton.stakers.getAvailableBalance().then((res) => console.log(res / 10 ** 9, 'balance'));
 
       setIsReady(true);
     };
